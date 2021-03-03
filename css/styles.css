@@ -1,43 +1,143 @@
 body {
+  color: #40514E;
   font-family: 'Titillium Web', sans-serif;
-  background-color: #c7cfb7;
+  background-color: white;
   margin: 0;
   text-align: center;
 }
 
 h1 {
+  color: #66BFBF;
+  margin: 50px auto 0 auto;
+  font-family: 'Roboto', sans-serif;
+  font-size: 4rem;
+}
+
+h2 {
+  line-height: 2;
+  color: #66BFBF;
   margin: 0 auto;
+  font-size: 2rem;
+  padding-top: 10px;
+}
+
+h3 {
+  color: #11999E;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+p{
+  line-height: 2;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+.intro{
+  width: 30%;
+  margin: auto;
+}
+
+#und {
+  font-style: italic;
+  text-decoration: underline;
+  font-weight: normal;
 }
 
 .top-container {
   padding-top: 100px;
   position: relative;
-  background-color: #9dad7f
+  background-color: #EAF6F6;
 }
-#profile-picture{
+
+#profile-picture {
   margin-top: 10px;
   width: 200px;
   height: 200px;
   border-radius: 100px;
 }
-#lw-picture{
-  margin-top: 10px;
-  width: 300px;
-  height: 200px;
-  border-radius: 30px;
-}
-.middle-container {}
 
-.bottom-container {}
+
+#lw-picture {
+  margin-right: 30px;
+  width: 25%;
+  border-radius: 25px;
+  float: left;
+}
+
+#irrigation {
+  width: 16.7%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: auto;
+  text-align: left;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+}
+
+.contact-msg{
+  width: 40%;
+  margin: 40px auto 60px;
+}
 
 .top-cloud {
   position: absolute;
   right: 300px;
-  top: 50px;
+  top: 20px;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 300px;
+  left: 250px;
   bottom: 300px;
+}
+
+.contact {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #FFFFFF;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 15px;
+  background-color: #66BFBF;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin: 30px auto 30px auto;
+}
+
+.contact:hover {
+  background: #11999E;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.p-footer{
+  color: #EAF6F6;
+}
+.footer-link{
+  margin: 10px;
+  color: #11999E;
 }
